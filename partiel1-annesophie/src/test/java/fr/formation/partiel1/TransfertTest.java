@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 class TransfertTest {
 
     void ShoulConstruct() {
-	Transfer transfer1 = new Transfer();
+	Transfer transfer1 = new Transfer(425876.98, null, null);
 	assertNotNull(transfer1);
     }
 
